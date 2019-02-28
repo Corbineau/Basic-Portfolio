@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+ nav {
+
+ }
+
+
+footer {
+    border-top: 5px solid grey;
+    background-color: darkturquoise;
+    color: #000;
+    font-size: 19px;
+}
+
+.navlist {
+
+}
+
+.content {
+
+}
+
+#name {
+    background-color: darkturquoise;
+    color: white;
+    padding: 10px;
+}
