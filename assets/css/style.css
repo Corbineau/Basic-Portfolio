@@ -91,7 +91,7 @@ h1 {
 
 .another_wrapper {
     width: 960px;
-    margin: 50px 0px;
+    margin: 40px 0px;
     border: 1px solid black;
     background-color: #fff;
     padding: 10px 10px;
@@ -106,7 +106,36 @@ h1 {
     border-top: 2px solid darkgrey;
     padding: 10px;
     background-color: white;
-    
+}
+
+.foliobox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.foliocard {
+
+height: 100px;
+width: 200px;
+border: 1px dotted black;
+padding: 5px;
+margin: 10px;
+
+}
+
+.folioimg {
+
+height: 100%;
+width: 100%;
+
+}
+
+.foliobox {
+
+width: 100%;
+color: white;
+background-color: black;
 
 }
 
@@ -117,17 +146,42 @@ img {
 }
 
 .contactform {
+    margin: 0 auto;
     font-family: 'Amatic SC', cursive;
     font-size: 16px;
 }
 
+input {
+    padding: 5px;
+    margin: 10px;
+}
+
+.button {
+    border: 1px dashed black;
+    background-color: white;
+    font-family:  'Amatic SC', cursive;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: lightcoral;
+}
+
+.formbox {
+    width: 80%;
+}
+
+.message {
+    height: 125px;
+    width: 80%;
+}
 
 footer {
     border-top: 2px solid black;
     background-color: whitesmoke;
     color: #000;
     width: 100%;
-    height: 100px;
+    height: 65px;
     font-size: 12px;
     font-family: 'Amatic SC', cursive;
     position: fixed;
@@ -135,7 +189,7 @@ footer {
     bottom: 0;
     color: black;
     text-align: center;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
 
 footer p {
