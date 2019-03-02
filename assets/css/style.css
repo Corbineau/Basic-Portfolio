@@ -108,6 +108,10 @@ h1 {
     background-color: white;
 }
 
+.bio p {
+    margin-top: 10px;
+}
+
 .foliobox {
     display: flex;
     flex-wrap: wrap;
@@ -115,28 +119,28 @@ h1 {
 }
 
 .foliocard {
-
+display: flex;
 height: 100px;
 width: 200px;
 border: 1px dotted black;
 padding: 5px;
 margin: 10px;
-
+background-color: #fff;
 }
 
 .folioimg {
 
-height: 100%;
-width: 100%;
+height: 100px;
+width: 200px;
 
 }
 
 .foliobox {
 
-width: 100%;
+width: inherit;
 color: white;
 background-color: black;
-height: 20px;
+height: 10px;
 
 }
 
