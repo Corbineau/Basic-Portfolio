@@ -191,6 +191,10 @@ input {
 .message {
     height: 125px;
     width: 80%;
+    word-wrap: normal;
+    vertical-align: top;
+    padding: 5px;
+    margin: 5px;
 }
 
 footer {
