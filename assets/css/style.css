@@ -130,7 +130,7 @@ padding: 5px;
 margin: 10px;
 background-color: #fff;
 z-index: 2;
-object-fit: cover;
+object-fit: fill;
 position: relative;
 }
 
