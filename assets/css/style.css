@@ -43,7 +43,6 @@ h1 {
     text-align: center;
     background-color: black;
     color: white;
-
     margin: 0px 0px 0px 0px; 
     padding: 10px 15px 10px 15px;
     height: 100%;
@@ -211,6 +210,7 @@ footer {
     color: black;
     text-align: center;
     vertical-align: middle;
+    z-index: 3;
 }
 
 footer p {
@@ -218,35 +218,67 @@ footer p {
 }
 
 
-@media only screen and (min-width: 768px) {
-    /* tablets and desktop */
-}
 
-@media only screen and (max-width: 767px) {
-    /* phones */
+@media only screen and (max-width: 980px) {
+    /* tablets */
+
+    body { 
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
 
     .navset {
-        width: 100%;
-        align-items: center;
-        margin: 0;
-        justify-content: space-between;
+        width: 760px;
     }
+
     .wrapper {
-        width: 460px;
+        width: 760px;
     }
 
     .another_wrapper {
-        width: 460px;
+        width: 760px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+   
+    body { 
+        background-size: auto;
+        background-repeat: repeat;
+    }
+   
+    .navset {
+        width: 100%;
+        align-items: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .wrapper {
+        width: 630px;
+    }
+
+    .another_wrapper {
+        width: 630px;
         margin: 10px 0px;
         padding: 5px 5px;
     }
 
-    #name {
+    .content {
         padding: 5px;
+
+    }  
+
+    #name {
+        width: 100%;
+        padding: 5px;
+        margin: 0 auto;
+
     }
 
     .navlist {
-        
+        margin: 0 auto;
     }
 
     .navlist li {
@@ -261,20 +293,66 @@ footer p {
 
     .foliocard {
         width: 100px;
+        padding: 5px;
+        margin: 5px;
     }
 
     .folioimg {
         width: 100px;
     }
-
 }
 
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-    /* portrait phones */
+@media only screen and (max-width: 640px) {
+
+    body { 
+        background-size: auto;
+        background-repeat: repeat;
+    }
+
     .navset {
-        width: 360px;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+        display: block;
     }
+
+    #name {
+        width: 100%;
+        padding: 5px;
+        margin: 0 auto;
+
+    }
+
+    .content {
+        padding: 5px;
+
+    } 
+
+    .navlist li {
+        justify-content: space-around;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .navlist li a {
+        font-size: 1.25rem;
+    }
+
+    .another_wrapper {
+        width: 400px;
+        margin: 10px 0px;
+        padding: 5px 5px;
+    }
+
     .wrapper {
-        width: 360px;
+        width: 400px;
     }
+
+    .foliocard {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    
+    }
+
 }
