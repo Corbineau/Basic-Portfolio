@@ -198,6 +198,11 @@ input {
     margin: 5px;
 }
 
+.response {
+    font-size: .8rem;
+    display: none;
+}
+
 footer {
     border-top: 2px solid black;
     background-color: whitesmoke;
