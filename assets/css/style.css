@@ -31,6 +31,18 @@ h2 {
     font-family: 'Fredericka the Great', cursive;
 }
 
+a {
+    color: indigo;
+}
+
+a:visited {
+    color: darkcyan;
+}
+
+a:hover {
+    color: coral;
+}
+
 /* navbar */
 
  nav {
@@ -84,7 +96,7 @@ h2 {
 
 
 .navlist li a:hover {
-    color: red;
+    color: #33DBFF;
     text-decoration: underline;
     font-weight: bolder;
 }
@@ -137,6 +149,26 @@ img {
     margin: 15px;
 }
 
+.resume {
+    text-align: center;
+    padding-top: 5px; 
+}
+
+.resume a {
+
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+.resume a:hover {
+    color: #33DBFF;
+    text-decoration: underline;
+    font-weight: bolder;
+}
 
 /* portfolio page elements */
 
@@ -152,7 +184,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border: 1px dotted black;
-height: 100px;
+height: fit-content;
 width: 190px;
 padding: 5px;
 margin: 10px;
@@ -176,10 +208,12 @@ color: white;
 background-color: black;
 height: 20px;
 text-align: center;
-z-index: 1;
+z-index: 2;
 position: absolute;
 
 }
+
+
 
 
 
